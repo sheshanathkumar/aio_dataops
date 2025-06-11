@@ -1,0 +1,1061 @@
+[JobID: 13025022] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-30T11:57:29.614753
+[JobID: 13025022] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-06-01T09:04:46.160040
+[JobID: 13025022] Execution successful. Output file: 'sorted_countries55.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-06-02T12:27:27.660768
+[JobID: 409e2ac4] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-26T06:46:11.773868
+[JobID: 409e2ac4] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-30T00:13:09.747087
+[JobID: 409e2ac4] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-31T07:16:56.669093
+[JobID: 409e2ac4] Execution successful. Output file: 'sorted_countries4.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-06-04T01:45:01.920200
+[JobID: eaf5b5ff] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-16T03:45:21.285960
+[JobID: eaf5b5ff] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-24T21:59:50.154277
+[JobID: eaf5b5ff] Execution successful. Output file: 'sorted_countries28.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-05-25T14:24:03.370554
+[JobID: df11926b] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-14T16:16:40.024043
+[JobID: df11926b] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-20T03:06:59.345757
+[JobID: df11926b] Execution successful. Output file: 'sorted_countries39.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-05-24T15:15:21.491090
+[JobID: bc9ebeef] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-13T05:51:19.504999
+[JobID: bc9ebeef] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-22T19:49:52.458649
+[JobID: bc9ebeef] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-29T19:25:23.748922
+[JobID: bc9ebeef] Execution successful. Output file: 'sorted_countries8.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-06-01T18:39:13.473531
+[JobID: 0feae5a8] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-12T02:10:55.109190
+[JobID: 0feae5a8] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-18T11:22:41.335640
+[JobID: 0feae5a8] Execution successful. Output file: 'sorted_countries60.csv' | Status: SUCCESS | Source: Spark | Timestamp: 2025-06-03T15:19:38.952243
+[JobID: bbc2cc44] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-09T07:49:57.634183
+[JobID: bbc2cc44] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-19T13:29:53.972464
+[JobID: bbc2cc44] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-25T06:28:31.446637
+[JobID: bbc2cc44] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Glue | Timestamp: 2025-06-02T12:47:36.933194
+[JobID: f24f7851] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-09T22:27:11.921952
+[JobID: f24f7851] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-26T21:15:50.231434
+[JobID: f24f7851] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: Spark | Timestamp: 2025-06-03T10:51:49.387067
+[JobID: 185eef67] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-09T22:50:01.441789
+[JobID: 185eef67] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-11T04:46:17.760690
+[JobID: 185eef67] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Glue | Timestamp: 2025-05-26T15:57:33.370824
+[JobID: feb1312a] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-08T20:21:46.437433
+[JobID: feb1312a] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-18T16:46:57.153160
+[JobID: feb1312a] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-06-02T19:58:39.033675
+[JobID: feb1312a] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: Hadoop | Timestamp: 2025-06-04T10:31:24.515503
+[JobID: 813764d5] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-10T18:46:16.948695
+[JobID: 813764d5] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-27T01:49:30.534189
+[JobID: 813764d5] Execution successful. Output file: 'sorted_countries76.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-06-01T00:54:37.749442
+[JobID: b6c3d751] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-21T11:16:46.712876
+[JobID: b6c3d751] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-23T03:39:09.327896
+[JobID: b6c3d751] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Hadoop | Timestamp: 2025-05-29T12:55:47.177277
+[JobID: e81f718f] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-16T17:59:13.033947
+[JobID: e81f718f] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-27T12:09:29.835331
+[JobID: e81f718f] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-31T18:27:22.236034
+[JobID: e81f718f] Execution failed | Status: FAILED | Error: java.lang.NullPointerException: Cannot read property 'foo' of null | Source: Glue | Timestamp: 2025-06-04T06:51:29.430808
+[JobID: d37960e3] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-20T00:51:15.902266
+[JobID: d37960e3] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-20T06:30:07.657973
+[JobID: d37960e3] Execution successful. Output file: 'sorted_countries38.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-06-07T01:26:14.729118
+[JobID: 30cdf59e] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-10T19:16:01.822359
+[JobID: 30cdf59e] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-12T08:37:15.353890
+[JobID: 30cdf59e] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-14T12:53:25.571948
+[JobID: 30cdf59e] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Hadoop | Timestamp: 2025-05-25T06:06:34.117948
+[JobID: fbda8f57] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-19T04:16:18.252293
+[JobID: fbda8f57] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-21T05:17:15.867551
+[JobID: fbda8f57] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-23T16:43:57.895612
+[JobID: fbda8f57] Execution successful. Output file: 'sorted_countries7.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-05-29T04:17:09.968169
+[JobID: 142253ce] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-10T03:38:53.797100
+[JobID: 142253ce] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-12T19:07:21.129670
+[JobID: 142253ce] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Hadoop | Timestamp: 2025-05-29T00:55:43.320972
+[JobID: f625c821] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-08T12:24:33.824449
+[JobID: f625c821] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-12T14:53:26.448388
+[JobID: f625c821] Execution successful. Output file: 'sorted_countries15.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-05-19T21:40:38.621180
+[JobID: 537dd115] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-09T06:21:25.949775
+[JobID: 537dd115] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-09T09:40:18.830409
+[JobID: 537dd115] Execution successful. Output file: 'sorted_countries15.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-06-06T16:03:12.063612
+[JobID: d827eaba] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-09T10:26:39.163844
+[JobID: d827eaba] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-11T01:37:22.859232
+[JobID: d827eaba] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-06-01T14:30:50.058731
+[JobID: d827eaba] Execution successful. Output file: 'sorted_countries71.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-06-07T08:34:44.385019
+[JobID: fdae77ba] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-23T17:33:03.193776
+[JobID: fdae77ba] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-27T05:07:10.912599
+[JobID: fdae77ba] Execution successful. Output file: 'sorted_countries31.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-06-03T15:35:54.037998
+[JobID: d5f194a0] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-12T22:26:08.755038
+[JobID: d5f194a0] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-06-02T10:51:12.389995
+[JobID: d5f194a0] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-06-05T03:50:36.148373
+[JobID: d5f194a0] Execution successful. Output file: 'sorted_countries97.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-06-07T00:28:54.500082
+[JobID: 483aeab2] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-08T14:55:42.114463
+[JobID: 483aeab2] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-14T17:27:58.464451
+[JobID: 483aeab2] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-16T11:05:47.375300
+[JobID: 483aeab2] Execution successful. Output file: 'sorted_countries82.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-06-03T07:30:44.738165
+[JobID: f6030708] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-18T02:26:43.289754
+[JobID: f6030708] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-19T12:12:52.083938
+[JobID: f6030708] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-06-04T01:07:54.975430
+[JobID: f6030708] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Mainframe | Timestamp: 2025-06-06T02:19:31.487627
+[JobID: 05fe8e74] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-11T23:44:36.222171
+[JobID: 05fe8e74] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-06-03T20:32:23.967872
+[JobID: 05fe8e74] Execution successful. Output file: 'sorted_countries25.csv' | Status: SUCCESS | Source: Spark | Timestamp: 2025-06-04T21:07:13.009958
+[JobID: a3cb5117] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-10T12:21:22.665184
+[JobID: a3cb5117] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-11T01:39:55.753615
+[JobID: a3cb5117] Execution successful. Output file: 'sorted_countries92.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-06-04T20:39:22.982987
+[JobID: eee0ae80] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-10T14:01:43.134123
+[JobID: eee0ae80] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-15T21:18:31.377053
+[JobID: eee0ae80] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-15T21:28:58.071146
+[JobID: eee0ae80] Execution successful. Output file: 'sorted_countries49.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-05-30T00:08:43.804631
+[JobID: f64ac667] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-14T02:08:29.336180
+[JobID: f64ac667] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-26T05:05:08.759965
+[JobID: f64ac667] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-28T19:37:52.227069
+[JobID: f64ac667] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: CloudFormation | Timestamp: 2025-05-31T22:15:51.198735
+[JobID: 75292d2a] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-13T12:32:26.426484
+[JobID: 75292d2a] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-24T13:34:20.289881
+[JobID: 75292d2a] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Glue | Timestamp: 2025-05-28T18:15:12.518797
+[JobID: 40451a80] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-19T02:11:28.324511
+[JobID: 40451a80] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-24T17:41:17.227784
+[JobID: 40451a80] Execution successful. Output file: 'sorted_countries18.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-06-07T05:08:02.325988
+[JobID: aac4585f] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-24T21:33:13.141202
+[JobID: aac4585f] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-25T11:47:53.944847
+[JobID: aac4585f] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-31T06:26:38.381804
+[JobID: aac4585f] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Hadoop | Timestamp: 2025-06-07T05:53:10.192631
+[JobID: 63889099] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-09T18:55:37.056771
+[JobID: 63889099] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-15T17:45:23.266635
+[JobID: 63889099] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-29T14:34:11.575183
+[JobID: 63889099] Execution successful. Output file: 'sorted_countries12.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-05-29T20:44:35.053668
+[JobID: 01f83bee] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-18T01:04:11.358471
+[JobID: 01f83bee] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-20T03:01:17.438753
+[JobID: 01f83bee] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-21T13:57:15.384162
+[JobID: 01f83bee] Execution successful. Output file: 'sorted_countries63.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-06-05T03:38:06.587363
+[JobID: 7ec84763] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-19T22:53:36.324828
+[JobID: 7ec84763] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-25T14:48:13.300081
+[JobID: 7ec84763] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-25T17:50:33.588686
+[JobID: 7ec84763] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Mainframe | Timestamp: 2025-06-06T08:35:55.969523
+[JobID: d394cd35] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-24T19:04:32.760617
+[JobID: d394cd35] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-28T17:42:31.475889
+[JobID: d394cd35] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-29T20:25:43.189136
+[JobID: d394cd35] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: CloudFormation | Timestamp: 2025-06-04T09:13:54.252037
+[JobID: f08af128] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-19T02:49:50.006791
+[JobID: f08af128] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-22T06:44:36.849036
+[JobID: f08af128] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: Mainframe | Timestamp: 2025-06-07T08:49:04.316338
+[JobID: 3de9bf59] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-15T18:54:22.594224
+[JobID: 3de9bf59] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-18T09:20:13.804290
+[JobID: 3de9bf59] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-29T17:09:01.014227
+[JobID: 3de9bf59] Execution successful. Output file: 'sorted_countries33.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-06-03T03:22:18.062292
+[JobID: acab85ad] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-12T11:53:51.846185
+[JobID: acab85ad] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-20T06:07:20.775491
+[JobID: acab85ad] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Hadoop | Timestamp: 2025-05-29T04:49:59.531616
+[JobID: e9ced109] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-09T11:42:01.744551
+[JobID: e9ced109] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-18T13:49:10.546561
+[JobID: e9ced109] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Glue | Timestamp: 2025-06-06T22:55:49.991392
+[JobID: 9ecf8162] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-11T20:08:32.777211
+[JobID: 9ecf8162] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-19T21:07:42.729998
+[JobID: 9ecf8162] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Spark | Timestamp: 2025-06-03T09:00:46.766578
+[JobID: 792def28] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-14T08:34:37.133981
+[JobID: 792def28] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-22T15:33:31.846859
+[JobID: 792def28] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-30T23:04:12.845778
+[JobID: 792def28] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Spark | Timestamp: 2025-06-04T20:01:51.089272
+[JobID: ee24d610] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-09T09:57:47.918773
+[JobID: ee24d610] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-11T14:07:03.604432
+[JobID: ee24d610] Execution successful. Output file: 'sorted_countries100.csv' | Status: SUCCESS | Source: Spark | Timestamp: 2025-06-03T05:13:21.030437
+[JobID: f7a1bbe2] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-10T22:33:02.043547
+[JobID: f7a1bbe2] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-20T11:44:31.936923
+[JobID: f7a1bbe2] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-29T11:55:26.428927
+[JobID: f7a1bbe2] Execution successful. Output file: 'sorted_countries29.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-06-03T15:53:15.966057
+[JobID: 257faa8f] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-10T06:25:36.396521
+[JobID: 257faa8f] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-14T07:58:56.781115
+[JobID: 257faa8f] Execution successful. Output file: 'sorted_countries51.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-05-24T18:45:09.135477
+[JobID: 6268e33d] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-17T13:59:12.718243
+[JobID: 6268e33d] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-23T22:32:26.297074
+[JobID: 6268e33d] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-28T10:56:47.047635
+[JobID: 6268e33d] Execution successful. Output file: 'sorted_countries72.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-06-01T15:38:13.548817
+[JobID: cf1a52fc] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-09T03:51:33.890595
+[JobID: cf1a52fc] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-14T13:04:34.110957
+[JobID: cf1a52fc] Execution successful. Output file: 'sorted_countries84.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-06-06T04:32:41.218360
+[JobID: 2c535b04] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-10T15:46:09.826101
+[JobID: 2c535b04] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-12T03:23:37.374174
+[JobID: 2c535b04] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-26T14:16:28.259852
+[JobID: 2c535b04] Execution successful. Output file: 'sorted_countries78.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-05-29T20:43:54.019738
+[JobID: e8e1471e] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-12T15:49:09.374660
+[JobID: e8e1471e] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-14T08:32:57.205360
+[JobID: e8e1471e] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-16T04:12:48.871355
+[JobID: e8e1471e] Execution successful. Output file: 'sorted_countries45.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-06-02T00:54:46.360371
+[JobID: 5cb5c28d] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-14T13:28:14.213665
+[JobID: 5cb5c28d] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-15T19:21:15.835716
+[JobID: 5cb5c28d] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-30T18:12:16.887244
+[JobID: 5cb5c28d] Execution successful. Output file: 'sorted_countries63.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-06-02T08:30:30.452625
+[JobID: c387a5e9] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-12T03:26:17.196912
+[JobID: c387a5e9] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-12T20:59:27.807372
+[JobID: c387a5e9] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Glue | Timestamp: 2025-05-29T17:51:02.862407
+[JobID: 7e9c12d6] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-21T15:05:10.542276
+[JobID: 7e9c12d6] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-23T08:07:50.916214
+[JobID: 7e9c12d6] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-24T07:56:56.594554
+[JobID: 7e9c12d6] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: Glue | Timestamp: 2025-05-24T15:52:26.710560
+[JobID: 2877c1bf] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-13T00:06:09.196981
+[JobID: 2877c1bf] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-13T06:02:09.101726
+[JobID: 2877c1bf] Execution successful. Output file: 'sorted_countries17.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-05-30T21:58:40.601504
+[JobID: 7b19321e] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-09T01:40:47.327931
+[JobID: 7b19321e] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-09T05:59:29.424619
+[JobID: 7b19321e] Execution failed | Status: FAILED | Error: java.lang.NullPointerException: Cannot read property 'foo' of null | Source: Hadoop | Timestamp: 2025-05-22T13:38:58.077941
+[JobID: 5d5243bf] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-08T17:44:37.553849
+[JobID: 5d5243bf] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-22T01:08:33.958359
+[JobID: 5d5243bf] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-24T05:55:46.730647
+[JobID: 5d5243bf] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Mainframe | Timestamp: 2025-05-30T05:37:12.224756
+[JobID: 746e0158] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-10T19:52:25.645015
+[JobID: 746e0158] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-31T01:34:42.848661
+[JobID: 746e0158] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-06-02T15:44:00.596353
+[JobID: 746e0158] Execution successful. Output file: 'sorted_countries59.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-06-02T22:15:05.341312
+[JobID: 6064fa58] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-12T15:56:07.769223
+[JobID: 6064fa58] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-15T10:45:45.084103
+[JobID: 6064fa58] Execution successful. Output file: 'sorted_countries21.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-06-06T06:47:18.944633
+[JobID: 6cbdf907] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-12T18:05:48.091613
+[JobID: 6cbdf907] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-22T05:19:33.716890
+[JobID: 6cbdf907] Execution successful. Output file: 'sorted_countries81.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-06-05T11:33:37.746180
+[JobID: 846ef227] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-14T15:27:42.996246
+[JobID: 846ef227] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-20T01:07:31.673778
+[JobID: 846ef227] Execution successful. Output file: 'sorted_countries88.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-06-05T20:44:07.930963
+[JobID: 27cd89bd] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-11T21:11:39.851608
+[JobID: 27cd89bd] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-21T01:27:24.230764
+[JobID: 27cd89bd] Execution successful. Output file: 'sorted_countries60.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-06-04T15:18:40.966500
+[JobID: 9b1dc858] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-10T21:09:56.513661
+[JobID: 9b1dc858] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-28T15:30:51.337282
+[JobID: 9b1dc858] Execution failed | Status: FAILED | Error: java.lang.NullPointerException: Cannot read property 'foo' of null | Source: Mainframe | Timestamp: 2025-06-02T19:55:12.520070
+[JobID: e9db56c7] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-29T21:08:01.862014
+[JobID: e9db56c7] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-31T06:24:21.369562
+[JobID: e9db56c7] Execution successful. Output file: 'sorted_countries37.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-06-03T21:35:25.763287
+[JobID: 39a4cc62] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-15T21:39:04.436026
+[JobID: 39a4cc62] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-20T14:53:14.813645
+[JobID: 39a4cc62] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Glue | Timestamp: 2025-05-27T22:20:56.673266
+[JobID: 4d39c6d5] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-14T09:28:27.738934
+[JobID: 4d39c6d5] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-23T21:14:17.868792
+[JobID: 4d39c6d5] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-30T13:48:05.330064
+[JobID: 4d39c6d5] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Glue | Timestamp: 2025-05-31T04:07:56.341734
+[JobID: 7b7ed63a] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-10T19:51:40.159326
+[JobID: 7b7ed63a] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-15T14:48:58.247839
+[JobID: 7b7ed63a] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-21T06:27:48.037914
+[JobID: 7b7ed63a] Execution successful. Output file: 'sorted_countries35.csv' | Status: SUCCESS | Source: Spark | Timestamp: 2025-06-04T18:27:33.529971
+[JobID: 6f507a31] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-25T19:13:32.082017
+[JobID: 6f507a31] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-26T15:29:41.401112
+[JobID: 6f507a31] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-06-01T06:28:51.423396
+[JobID: 6f507a31] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Mainframe | Timestamp: 2025-06-01T07:59:00.619282
+[JobID: ac455f8c] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-24T12:38:44.477954
+[JobID: ac455f8c] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-28T04:48:03.550163
+[JobID: ac455f8c] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-30T02:29:59.259414
+[JobID: ac455f8c] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Hadoop | Timestamp: 2025-06-04T07:25:44.756618
+[JobID: 4b11076a] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-10T14:25:27.468404
+[JobID: 4b11076a] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-26T01:15:48.638550
+[JobID: 4b11076a] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-31T09:53:09.498728
+[JobID: 4b11076a] Execution failed | Status: FAILED | Error: java.lang.NullPointerException: Cannot read property 'foo' of null | Source: Glue | Timestamp: 2025-06-04T19:57:26.367442
+[JobID: 1bde1eb4] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-08T13:55:53.026750
+[JobID: 1bde1eb4] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-15T02:44:25.063889
+[JobID: 1bde1eb4] Execution successful. Output file: 'sorted_countries25.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-06-03T12:08:28.876959
+[JobID: b0698b67] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-23T07:05:46.813764
+[JobID: b0698b67] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-29T17:08:47.059094
+[JobID: b0698b67] Execution successful. Output file: 'sorted_countries66.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-06-04T19:16:36.112764
+[JobID: 27542586] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-14T14:00:19.277743
+[JobID: 27542586] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-22T19:40:14.701278
+[JobID: 27542586] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-25T10:35:00.007386
+[JobID: 27542586] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: Hadoop | Timestamp: 2025-06-02T08:22:09.664388
+[JobID: 2cb46df7] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-09T22:38:59.988899
+[JobID: 2cb46df7] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-23T12:00:25.299897
+[JobID: 2cb46df7] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-25T12:20:22.952380
+[JobID: 2cb46df7] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Mainframe | Timestamp: 2025-06-01T10:51:45.674128
+[JobID: 83ec72bd] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-24T15:10:58.061061
+[JobID: 83ec72bd] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-31T10:09:25.512208
+[JobID: 83ec72bd] Execution successful. Output file: 'sorted_countries85.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-06-06T22:16:57.901518
+[JobID: 374fe5ee] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-09T22:03:55.633964
+[JobID: 374fe5ee] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-11T16:59:18.309284
+[JobID: 374fe5ee] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-24T21:27:45.124839
+[JobID: 374fe5ee] Execution successful. Output file: 'sorted_countries17.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-05-30T19:18:37.487127
+[JobID: 414f07a4] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-14T20:40:11.737968
+[JobID: 414f07a4] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-23T07:04:29.137406
+[JobID: 414f07a4] Execution successful. Output file: 'sorted_countries64.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-06-06T16:28:31.867581
+[JobID: e8d26678] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-25T09:47:50.702077
+[JobID: e8d26678] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-26T15:16:01.411089
+[JobID: e8d26678] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-31T16:43:38.607929
+[JobID: e8d26678] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: Hadoop | Timestamp: 2025-06-05T02:08:21.769919
+[JobID: 686eff79] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-12T13:57:32.304606
+[JobID: 686eff79] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-19T12:12:16.894871
+[JobID: 686eff79] Execution failed | Status: FAILED | Error: java.lang.NullPointerException: Cannot read property 'foo' of null | Source: Spark | Timestamp: 2025-05-30T18:47:07.182039
+[JobID: 2a1eb2e6] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-16T03:57:27.336732
+[JobID: 2a1eb2e6] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-20T12:50:27.409937
+[JobID: 2a1eb2e6] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-26T03:48:22.953841
+[JobID: 2a1eb2e6] Execution successful. Output file: 'sorted_countries35.csv' | Status: SUCCESS | Source: Spark | Timestamp: 2025-05-31T17:41:04.412694
+[JobID: be58d725] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-13T08:40:38.064382
+[JobID: be58d725] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-17T01:24:59.610320
+[JobID: be58d725] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: CloudFormation | Timestamp: 2025-06-05T19:59:29.108418
+[JobID: a8ff23ef] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-13T15:46:14.751330
+[JobID: a8ff23ef] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-18T21:15:04.251264
+[JobID: a8ff23ef] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-26T19:25:51.652439
+[JobID: a8ff23ef] Execution successful. Output file: 'sorted_countries23.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-06-01T00:38:23.055251
+[JobID: 4066a6a9] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-26T00:49:16.791184
+[JobID: 4066a6a9] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-31T13:57:20.151827
+[JobID: 4066a6a9] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-06-02T22:04:31.683543
+[JobID: 4066a6a9] Execution failed | Status: FAILED | Error: java.lang.NullPointerException: Cannot read property 'foo' of null | Source: Hadoop | Timestamp: 2025-06-03T02:12:16.464101
+[JobID: 24f90bf1] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-10T16:38:38.658365
+[JobID: 24f90bf1] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-11T11:53:44.082586
+[JobID: 24f90bf1] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-13T06:51:21.561455
+[JobID: 24f90bf1] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Spark | Timestamp: 2025-05-28T16:33:25.390346
+[JobID: 9a072a3f] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-10T19:01:20.200157
+[JobID: 9a072a3f] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-13T00:30:30.942898
+[JobID: 9a072a3f] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: Spark | Timestamp: 2025-06-06T08:50:33.935676
+[JobID: 9e114d61] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-16T06:27:50.775862
+[JobID: 9e114d61] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-19T19:36:23.807992
+[JobID: 9e114d61] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: Spark | Timestamp: 2025-05-26T14:51:19.199914
+[JobID: 6ad2fe11] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-14T03:54:23.163115
+[JobID: 6ad2fe11] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-29T22:47:15.462805
+[JobID: 6ad2fe11] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Spark | Timestamp: 2025-06-05T14:02:52.934467
+[JobID: 276dae3d] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-12T12:38:32.417872
+[JobID: 276dae3d] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-13T04:32:23.256844
+[JobID: 276dae3d] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: Hadoop | Timestamp: 2025-06-04T09:47:02.383412
+[JobID: ad81d0ad] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-22T08:20:41.313908
+[JobID: ad81d0ad] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-06-02T14:55:46.835966
+[JobID: ad81d0ad] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-06-03T14:20:24.326003
+[JobID: ad81d0ad] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: CloudFormation | Timestamp: 2025-06-03T23:55:40.410349
+[JobID: 0362a8ca] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-12T05:55:45.777328
+[JobID: 0362a8ca] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-17T06:34:40.417058
+[JobID: 0362a8ca] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: CloudFormation | Timestamp: 2025-06-01T20:54:51.051175
+[JobID: 2358d37d] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-21T13:19:41.511598
+[JobID: 2358d37d] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-29T05:00:13.716097
+[JobID: 2358d37d] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-29T05:16:54.600210
+[JobID: 2358d37d] Execution failed | Status: FAILED | Error: java.lang.NullPointerException: Cannot read property 'foo' of null | Source: CloudFormation | Timestamp: 2025-06-01T15:19:54.804451
+[JobID: df107747] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-12T09:58:07.846815
+[JobID: df107747] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-22T06:11:52.921808
+[JobID: df107747] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-24T15:04:31.914521
+[JobID: df107747] Execution successful. Output file: 'sorted_countries99.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-06-07T01:47:22.796585
+[JobID: 62ddc0d0] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-14T19:00:23.762255
+[JobID: 62ddc0d0] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-26T01:26:44.288686
+[JobID: 62ddc0d0] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-28T12:02:51.482702
+[JobID: 62ddc0d0] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Spark | Timestamp: 2025-06-02T16:27:50.421714
+[JobID: dc43f6b5] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-17T08:49:50.856579
+[JobID: dc43f6b5] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-18T19:54:47.630007
+[JobID: dc43f6b5] Execution successful. Output file: 'sorted_countries15.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-06-04T20:40:37.758088
+[JobID: bcf223bc] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-13T18:27:20.114413
+[JobID: bcf223bc] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-18T01:20:35.607989
+[JobID: bcf223bc] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Glue | Timestamp: 2025-05-26T06:16:26.493881
+[JobID: 22cc49c3] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-10T04:32:26.473053
+[JobID: 22cc49c3] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-10T22:34:43.527727
+[JobID: 22cc49c3] Execution successful. Output file: 'sorted_countries86.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-06-05T17:38:57.010142
+[JobID: 76332be3] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-11T18:01:27.884418
+[JobID: 76332be3] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-22T21:13:24.166575
+[JobID: 76332be3] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-24T06:31:57.160641
+[JobID: 76332be3] Execution successful. Output file: 'sorted_countries90.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-05-31T16:38:00.609885
+[JobID: 6bc633d7] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-19T13:12:36.533661
+[JobID: 6bc633d7] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-20T08:04:33.846037
+[JobID: 6bc633d7] Execution successful. Output file: 'sorted_countries92.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-06-01T05:02:11.353554
+[JobID: 94952933] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-11T16:57:15.835311
+[JobID: 94952933] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-15T02:28:12.619457
+[JobID: 94952933] Execution successful. Output file: 'sorted_countries97.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-05-27T19:10:54.772118
+[JobID: c7ecc0e6] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-12T16:55:12.757829
+[JobID: c7ecc0e6] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-20T16:51:10.392660
+[JobID: c7ecc0e6] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-21T01:02:58.541541
+[JobID: c7ecc0e6] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Glue | Timestamp: 2025-05-26T21:32:43.473552
+[JobID: 8aec51c5] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-20T05:11:01.204052
+[JobID: 8aec51c5] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-26T06:00:59.170817
+[JobID: 8aec51c5] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-06-03T14:48:24.944910
+[JobID: 8aec51c5] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: Mainframe | Timestamp: 2025-06-06T01:31:15.560637
+[JobID: 0cdd8e73] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-10T04:30:45.271875
+[JobID: 0cdd8e73] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-23T15:40:26.510760
+[JobID: 0cdd8e73] Execution successful. Output file: 'sorted_countries96.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-06-04T06:52:46.704913
+[JobID: 83b17ef5] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-14T16:05:16.229658
+[JobID: 83b17ef5] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-20T00:09:27.445606
+[JobID: 83b17ef5] Execution successful. Output file: 'sorted_countries67.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-06-03T20:41:01.370211
+[JobID: b431f33a] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-10T08:18:32.965129
+[JobID: b431f33a] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-22T22:21:54.093409
+[JobID: b431f33a] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-26T06:12:57.305771
+[JobID: b431f33a] Execution successful. Output file: 'sorted_countries57.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-06-04T03:05:45.047009
+[JobID: 6b153821] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-31T02:11:25.068019
+[JobID: 6b153821] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-06-02T22:29:32.876623
+[JobID: 6b153821] Execution successful. Output file: 'sorted_countries9.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-06-06T16:35:42.769429
+[JobID: 48eae48c] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-15T14:40:24.207351
+[JobID: 48eae48c] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-19T05:56:21.024377
+[JobID: 48eae48c] Execution successful. Output file: 'sorted_countries41.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-05-31T14:18:53.972011
+[JobID: 2330ddfe] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-16T21:42:32.396236
+[JobID: 2330ddfe] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-22T09:21:50.961412
+[JobID: 2330ddfe] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-25T21:34:02.613697
+[JobID: 2330ddfe] Execution successful. Output file: 'sorted_countries83.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-06-04T13:28:43.036787
+[JobID: 484425bf] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-10T09:44:23.320835
+[JobID: 484425bf] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-18T11:24:31.428842
+[JobID: 484425bf] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-20T07:52:26.077001
+[JobID: 484425bf] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Spark | Timestamp: 2025-05-28T11:24:08.304432
+[JobID: e377c578] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-12T14:37:22.759990
+[JobID: e377c578] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-13T02:54:32.419262
+[JobID: e377c578] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-27T04:20:05.250275
+[JobID: e377c578] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: Mainframe | Timestamp: 2025-06-04T02:12:07.156039
+[JobID: 4360c0d4] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-23T00:48:26.845241
+[JobID: 4360c0d4] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-25T13:48:54.570699
+[JobID: 4360c0d4] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-26T07:42:47.026360
+[JobID: 4360c0d4] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Hadoop | Timestamp: 2025-06-01T06:31:17.530745
+[JobID: cbb6b92d] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-18T02:28:15.347507
+[JobID: cbb6b92d] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-19T08:44:28.810891
+[JobID: cbb6b92d] Execution successful. Output file: 'sorted_countries86.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-05-22T05:18:10.274473
+[JobID: 35a0e957] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-12T05:42:20.467942
+[JobID: 35a0e957] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-19T17:18:25.281408
+[JobID: 35a0e957] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-26T22:49:13.188605
+[JobID: 35a0e957] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: CloudFormation | Timestamp: 2025-05-27T05:07:14.996903
+[JobID: 4e882766] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-11T12:24:17.565114
+[JobID: 4e882766] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-14T18:13:41.298828
+[JobID: 4e882766] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-25T21:44:12.137382
+[JobID: 4e882766] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Mainframe | Timestamp: 2025-05-29T04:18:20.752759
+[JobID: f6117702] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-19T22:37:06.022133
+[JobID: f6117702] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-29T23:19:18.377863
+[JobID: f6117702] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-06-04T01:18:36.877120
+[JobID: f6117702] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Mainframe | Timestamp: 2025-06-05T17:15:08.073299
+[JobID: a1952867] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-12T12:05:58.572343
+[JobID: a1952867] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-14T06:08:23.311755
+[JobID: a1952867] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: Hadoop | Timestamp: 2025-06-05T00:42:07.788274
+[JobID: 882d9bd1] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-23T00:44:21.685738
+[JobID: 882d9bd1] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-28T07:36:09.608495
+[JobID: 882d9bd1] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-06-01T05:40:47.048764
+[JobID: 882d9bd1] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: Spark | Timestamp: 2025-06-01T16:10:29.536785
+[JobID: 86460058] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-11T11:23:20.615700
+[JobID: 86460058] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-13T20:52:45.916746
+[JobID: 86460058] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: Hadoop | Timestamp: 2025-06-01T05:36:42.297622
+[JobID: a2738e95] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-12T06:16:00.936920
+[JobID: a2738e95] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-14T03:26:26.026372
+[JobID: a2738e95] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Mainframe | Timestamp: 2025-05-25T20:00:47.158127
+[JobID: 71be659b] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-10T17:16:31.962960
+[JobID: 71be659b] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-22T18:55:48.673023
+[JobID: 71be659b] Execution successful. Output file: 'sorted_countries24.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-05-27T13:44:54.109940
+[JobID: f5109e15] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-09T08:38:17.881873
+[JobID: f5109e15] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-17T07:46:17.905974
+[JobID: f5109e15] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-26T17:13:19.856150
+[JobID: f5109e15] Execution successful. Output file: 'sorted_countries75.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-06-06T14:02:04.324288
+[JobID: 822a4142] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-24T11:03:36.799316
+[JobID: 822a4142] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-27T07:28:13.230734
+[JobID: 822a4142] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-06-04T06:33:16.007115
+[JobID: 822a4142] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: Mainframe | Timestamp: 2025-06-06T06:36:47.066566
+[JobID: 0b261742] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-15T11:04:41.692582
+[JobID: 0b261742] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-17T17:26:52.711150
+[JobID: 0b261742] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-23T18:57:35.338213
+[JobID: 0b261742] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Hadoop | Timestamp: 2025-06-04T08:35:34.861199
+[JobID: b9f84d68] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-10T22:26:32.898904
+[JobID: b9f84d68] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-14T07:22:45.222493
+[JobID: b9f84d68] Execution successful. Output file: 'sorted_countries47.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-06-04T23:00:33.507516
+[JobID: 6b605979] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-17T01:13:14.691661
+[JobID: 6b605979] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-23T23:44:43.365357
+[JobID: 6b605979] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-27T10:54:39.264394
+[JobID: 6b605979] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Spark | Timestamp: 2025-06-05T08:48:36.121389
+[JobID: 589e40f2] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-15T07:51:02.432673
+[JobID: 589e40f2] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-15T12:24:17.280021
+[JobID: 589e40f2] Execution successful. Output file: 'sorted_countries66.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-05-28T23:27:54.956536
+[JobID: ba45c39e] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-19T19:34:16.010538
+[JobID: ba45c39e] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-24T10:45:32.860806
+[JobID: ba45c39e] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Hadoop | Timestamp: 2025-06-05T22:47:14.793654
+[JobID: 3d3f35db] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-12T05:48:44.728221
+[JobID: 3d3f35db] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-24T16:09:51.621843
+[JobID: 3d3f35db] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-28T16:07:37.869161
+[JobID: 3d3f35db] Execution successful. Output file: 'sorted_countries88.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-05-31T13:24:48.718747
+[JobID: a6fb5c10] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-09T21:45:38.446965
+[JobID: a6fb5c10] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-12T08:25:03.569679
+[JobID: a6fb5c10] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-20T07:29:55.688451
+[JobID: a6fb5c10] Execution successful. Output file: 'sorted_countries43.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-05-29T02:55:58.789753
+[JobID: 2dd22309] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-09T10:57:50.916004
+[JobID: 2dd22309] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-16T07:08:38.059678
+[JobID: 2dd22309] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Mainframe | Timestamp: 2025-06-06T08:14:43.246086
+[JobID: 2880d7a8] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-08T17:00:16.609168
+[JobID: 2880d7a8] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-17T21:32:12.985318
+[JobID: 2880d7a8] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-18T08:51:34.510148
+[JobID: 2880d7a8] Execution successful. Output file: 'sorted_countries57.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-05-31T07:45:19.833175
+[JobID: d62998db] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-12T14:20:12.129866
+[JobID: d62998db] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-12T18:37:27.321448
+[JobID: d62998db] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-18T01:09:02.848643
+[JobID: d62998db] Execution successful. Output file: 'sorted_countries87.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-05-21T13:35:58.889132
+[JobID: 2545e055] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-08T20:28:12.669417
+[JobID: 2545e055] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-11T19:55:02.336591
+[JobID: 2545e055] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-15T04:40:47.874715
+[JobID: 2545e055] Execution successful. Output file: 'sorted_countries50.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-06-04T02:49:12.771913
+[JobID: 54ebf683] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-09T03:49:37.492572
+[JobID: 54ebf683] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-12T15:39:19.516199
+[JobID: 54ebf683] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-17T00:41:08.007234
+[JobID: 54ebf683] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Hadoop | Timestamp: 2025-05-26T09:28:12.308176
+[JobID: 14c6043c] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-10T01:58:35.912377
+[JobID: 14c6043c] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-14T13:09:24.747925
+[JobID: 14c6043c] Execution successful. Output file: 'sorted_countries72.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-06-03T08:15:10.353845
+[JobID: 813f01df] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-12T19:24:05.250741
+[JobID: 813f01df] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-16T15:37:16.369163
+[JobID: 813f01df] Execution successful. Output file: 'sorted_countries98.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-05-27T08:13:44.477312
+[JobID: 40ac38df] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-22T15:24:32.246167
+[JobID: 40ac38df] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-23T10:03:52.767205
+[JobID: 40ac38df] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: Glue | Timestamp: 2025-05-26T06:56:33.908276
+[JobID: 10b52c58] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-10T17:25:49.640787
+[JobID: 10b52c58] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-18T02:39:47.451590
+[JobID: 10b52c58] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-31T02:08:12.918416
+[JobID: 10b52c58] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Hadoop | Timestamp: 2025-06-03T21:42:23.248508
+[JobID: 6ec01ba6] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-16T16:21:28.276934
+[JobID: 6ec01ba6] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-17T19:22:28.727490
+[JobID: 6ec01ba6] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-19T23:41:17.018215
+[JobID: 6ec01ba6] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: CloudFormation | Timestamp: 2025-05-23T20:57:06.477019
+[JobID: 41e819e3] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-10T23:56:18.279360
+[JobID: 41e819e3] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-12T07:23:20.420168
+[JobID: 41e819e3] Execution successful. Output file: 'sorted_countries26.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-05-24T05:08:56.497997
+[JobID: 56d72fe5] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-18T03:45:58.145965
+[JobID: 56d72fe5] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-21T01:09:32.494399
+[JobID: 56d72fe5] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-28T12:01:42.511180
+[JobID: 56d72fe5] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: CloudFormation | Timestamp: 2025-06-03T15:52:44.724716
+[JobID: dc7a8b9d] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-15T02:16:13.885851
+[JobID: dc7a8b9d] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-27T06:55:32.758331
+[JobID: dc7a8b9d] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-06-03T20:45:45.845510
+[JobID: dc7a8b9d] Execution successful. Output file: 'sorted_countries90.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-06-05T02:19:14.639607
+[JobID: d8abc4cb] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-18T19:13:01.904235
+[JobID: d8abc4cb] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-22T01:24:59.236649
+[JobID: d8abc4cb] Execution failed | Status: FAILED | Error: java.lang.NullPointerException: Cannot read property 'foo' of null | Source: Hadoop | Timestamp: 2025-05-28T19:36:22.227098
+[JobID: c0b93106] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-11T00:33:22.495341
+[JobID: c0b93106] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-15T03:04:39.022210
+[JobID: c0b93106] Execution successful. Output file: 'sorted_countries72.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-05-27T10:28:39.771165
+[JobID: be666f6f] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-09T08:12:38.512419
+[JobID: be666f6f] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-14T20:08:14.760690
+[JobID: be666f6f] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-17T09:25:03.074417
+[JobID: be666f6f] Execution successful. Output file: 'sorted_countries17.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-05-27T02:16:56.995309
+[JobID: c498642b] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-17T03:21:38.809114
+[JobID: c498642b] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-24T06:32:23.922901
+[JobID: c498642b] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-26T16:23:58.422430
+[JobID: c498642b] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Spark | Timestamp: 2025-06-06T04:58:41.310434
+[JobID: cf882d24] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-10T06:50:15.645453
+[JobID: cf882d24] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-15T10:33:01.330794
+[JobID: cf882d24] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-29T04:47:17.185878
+[JobID: cf882d24] Execution successful. Output file: 'sorted_countries68.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-06-02T19:30:14.532422
+[JobID: 4be8285f] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-22T10:48:22.997367
+[JobID: 4be8285f] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-26T14:29:30.863669
+[JobID: 4be8285f] Execution successful. Output file: 'sorted_countries48.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-06-05T05:26:18.614521
+[JobID: e87c4b57] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-12T20:57:32.907781
+[JobID: e87c4b57] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-20T21:45:25.798612
+[JobID: e87c4b57] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-26T18:00:28.487041
+[JobID: e87c4b57] Execution successful. Output file: 'sorted_countries78.csv' | Status: SUCCESS | Source: Spark | Timestamp: 2025-05-27T00:46:13.911437
+[JobID: ad77bb91] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-11T03:07:19.923181
+[JobID: ad77bb91] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-11T21:32:35.661482
+[JobID: ad77bb91] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-22T08:22:29.536472
+[JobID: ad77bb91] Execution successful. Output file: 'sorted_countries4.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-06-07T03:56:23.697604
+[JobID: 657df997] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-10T08:01:39.021874
+[JobID: 657df997] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-15T04:01:12.479738
+[JobID: 657df997] Execution successful. Output file: 'sorted_countries95.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-06-05T05:05:53.224432
+[JobID: ce9b70d1] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-12T19:36:20.619644
+[JobID: ce9b70d1] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-18T09:12:42.544204
+[JobID: ce9b70d1] Execution successful. Output file: 'sorted_countries98.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-05-26T22:11:46.639705
+[JobID: deb6ee69] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-08T19:00:04.413847
+[JobID: deb6ee69] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-10T00:53:31.778915
+[JobID: deb6ee69] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Hadoop | Timestamp: 2025-06-01T10:56:16.772034
+[JobID: 1ec764bc] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-09T15:41:48.315839
+[JobID: 1ec764bc] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-15T13:43:46.627923
+[JobID: 1ec764bc] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-24T17:34:04.351832
+[JobID: 1ec764bc] Execution successful. Output file: 'sorted_countries39.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-05-25T18:38:24.360366
+[JobID: bacca684] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-22T21:30:29.767292
+[JobID: bacca684] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-23T00:39:48.984430
+[JobID: bacca684] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-23T08:06:27.704379
+[JobID: bacca684] Execution failed | Status: FAILED | Error: java.lang.NullPointerException: Cannot read property 'foo' of null | Source: CloudFormation | Timestamp: 2025-06-01T07:37:38.921313
+[JobID: be441b6e] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-12T16:25:06.806965
+[JobID: be441b6e] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-06-03T19:59:20.438669
+[JobID: be441b6e] Execution successful. Output file: 'sorted_countries19.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-06-07T06:26:01.240567
+[JobID: 5a74943e] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-15T23:07:34.841924
+[JobID: 5a74943e] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-20T00:35:47.195198
+[JobID: 5a74943e] Execution successful. Output file: 'sorted_countries99.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-06-03T21:46:07.088676
+[JobID: 3bffe92d] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-12T11:30:38.504436
+[JobID: 3bffe92d] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-22T23:00:37.106992
+[JobID: 3bffe92d] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-28T09:57:46.121726
+[JobID: 3bffe92d] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Glue | Timestamp: 2025-06-02T23:52:51.205843
+[JobID: ab7ed318] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-14T18:44:12.954484
+[JobID: ab7ed318] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-23T06:08:28.290994
+[JobID: ab7ed318] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-25T11:47:11.508613
+[JobID: ab7ed318] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Spark | Timestamp: 2025-06-02T05:39:59.832282
+[JobID: e2e72ba3] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-16T17:49:18.036362
+[JobID: e2e72ba3] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-19T21:24:47.564427
+[JobID: e2e72ba3] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Hadoop | Timestamp: 2025-06-02T02:24:26.401396
+[JobID: e115a724] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-18T05:38:26.736802
+[JobID: e115a724] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-19T19:17:27.072336
+[JobID: e115a724] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-22T07:20:01.247284
+[JobID: e115a724] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Spark | Timestamp: 2025-05-22T17:37:22.787694
+[JobID: a8314255] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-18T19:59:20.234202
+[JobID: a8314255] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-21T03:50:42.087711
+[JobID: a8314255] Execution successful. Output file: 'sorted_countries8.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-05-24T17:43:45.475683
+[JobID: 2fa9e316] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-11T22:42:28.218017
+[JobID: 2fa9e316] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-22T17:13:43.569152
+[JobID: 2fa9e316] Execution failed | Status: FAILED | Error: java.lang.NullPointerException: Cannot read property 'foo' of null | Source: Spark | Timestamp: 2025-06-06T20:16:09.679912
+[JobID: 04d03efc] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-15T19:52:06.324717
+[JobID: 04d03efc] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-18T18:30:43.013241
+[JobID: 04d03efc] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-26T14:48:37.274039
+[JobID: 04d03efc] Execution successful. Output file: 'sorted_countries92.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-06-04T21:38:11.248661
+[JobID: a2eec66a] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-10T02:18:46.046500
+[JobID: a2eec66a] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-30T16:36:58.526548
+[JobID: a2eec66a] Execution failed | Status: FAILED | Error: java.lang.NullPointerException: Cannot read property 'foo' of null | Source: Spark | Timestamp: 2025-06-05T23:52:52.088798
+[JobID: 2fcea73c] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-19T00:55:45.074450
+[JobID: 2fcea73c] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-19T06:18:26.866911
+[JobID: 2fcea73c] Execution failed | Status: FAILED | Error: java.lang.NullPointerException: Cannot read property 'foo' of null | Source: Mainframe | Timestamp: 2025-05-30T21:18:15.461283
+[JobID: 88cd5034] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-11T22:32:06.312240
+[JobID: 88cd5034] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-14T22:44:39.215876
+[JobID: 88cd5034] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-17T21:21:34.000270
+[JobID: 88cd5034] Execution successful. Output file: 'sorted_countries88.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-05-23T07:05:11.593319
+[JobID: cc2b096a] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-27T09:12:25.687429
+[JobID: cc2b096a] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-29T09:34:39.045161
+[JobID: cc2b096a] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-29T17:07:47.811102
+[JobID: cc2b096a] Execution successful. Output file: 'sorted_countries60.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-06-04T19:38:08.775856
+[JobID: f8fb40bd] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-16T01:15:13.250728
+[JobID: f8fb40bd] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-27T17:12:10.920145
+[JobID: f8fb40bd] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-28T21:22:56.439193
+[JobID: f8fb40bd] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: Mainframe | Timestamp: 2025-06-04T23:36:31.932692
+[JobID: 0c1d3c8c] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-09T15:08:43.449883
+[JobID: 0c1d3c8c] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-18T06:41:50.264077
+[JobID: 0c1d3c8c] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-24T16:07:52.056045
+[JobID: 0c1d3c8c] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Hadoop | Timestamp: 2025-05-25T05:45:11.826614
+[JobID: 2da10f72] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-14T07:12:01.936614
+[JobID: 2da10f72] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-15T19:10:24.689201
+[JobID: 2da10f72] Execution successful. Output file: 'sorted_countries55.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-06-02T23:00:12.597447
+[JobID: 711280de] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-10T07:18:14.560834
+[JobID: 711280de] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-19T01:43:05.019256
+[JobID: 711280de] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-26T12:00:33.557325
+[JobID: 711280de] Execution successful. Output file: 'sorted_countries61.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-05-31T07:33:07.991580
+[JobID: 2e1d1ab9] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-11T10:18:57.155183
+[JobID: 2e1d1ab9] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-11T11:48:14.806848
+[JobID: 2e1d1ab9] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-18T22:59:20.280006
+[JobID: 2e1d1ab9] Execution successful. Output file: 'sorted_countries16.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-06-03T10:26:34.152457
+[JobID: 7e45b075] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-10T12:18:46.491185
+[JobID: 7e45b075] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-12T23:09:31.240672
+[JobID: 7e45b075] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-26T17:48:34.000907
+[JobID: 7e45b075] Execution successful. Output file: 'sorted_countries15.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-05-30T06:17:21.452757
+[JobID: 3644ee72] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-12T19:50:24.879260
+[JobID: 3644ee72] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-14T20:12:19.600569
+[JobID: 3644ee72] Execution failed | Status: FAILED | Error: java.lang.NullPointerException: Cannot read property 'foo' of null | Source: CloudFormation | Timestamp: 2025-06-01T05:39:30.804862
+[JobID: 4a23cf85] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-12T00:05:53.889816
+[JobID: 4a23cf85] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-12T22:10:13.974273
+[JobID: 4a23cf85] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-16T09:20:44.336869
+[JobID: 4a23cf85] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: Hadoop | Timestamp: 2025-05-25T05:44:45.412806
+[JobID: 6cecfb12] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-11T12:45:54.905839
+[JobID: 6cecfb12] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-14T11:53:38.447930
+[JobID: 6cecfb12] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Hadoop | Timestamp: 2025-05-19T12:56:00.369280
+[JobID: d85050fc] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-09T21:58:29.707091
+[JobID: d85050fc] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-17T11:21:44.726056
+[JobID: d85050fc] Execution successful. Output file: 'sorted_countries45.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-06-04T15:47:23.613255
+[JobID: 0feac2c3] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-14T20:44:19.434625
+[JobID: 0feac2c3] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-20T17:13:06.133621
+[JobID: 0feac2c3] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Hadoop | Timestamp: 2025-06-04T08:27:14.044388
+[JobID: 12e9dc2a] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-19T23:35:35.508106
+[JobID: 12e9dc2a] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-31T10:46:05.369970
+[JobID: 12e9dc2a] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-06-02T15:49:43.327841
+[JobID: 12e9dc2a] Execution successful. Output file: 'sorted_countries44.csv' | Status: SUCCESS | Source: Spark | Timestamp: 2025-06-03T18:15:28.082058
+[JobID: c00d671b] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-13T05:32:28.602509
+[JobID: c00d671b] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-13T21:33:00.482546
+[JobID: c00d671b] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-22T12:59:13.280881
+[JobID: c00d671b] Execution successful. Output file: 'sorted_countries9.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-05-27T13:11:27.364975
+[JobID: 773629d8] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-19T15:32:08.676963
+[JobID: 773629d8] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-20T07:51:23.491992
+[JobID: 773629d8] Execution successful. Output file: 'sorted_countries85.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-05-31T13:05:53.927017
+[JobID: 9728e75b] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-16T14:21:16.300231
+[JobID: 9728e75b] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-25T01:38:28.734007
+[JobID: 9728e75b] Execution successful. Output file: 'sorted_countries99.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-06-01T13:07:25.001530
+[JobID: 9fd5a892] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-10T02:42:43.156562
+[JobID: 9fd5a892] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-10T22:55:42.481254
+[JobID: 9fd5a892] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-28T14:09:57.202727
+[JobID: 9fd5a892] Execution successful. Output file: 'sorted_countries63.csv' | Status: SUCCESS | Source: Spark | Timestamp: 2025-05-30T00:39:18.137365
+[JobID: 5800f459] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-16T04:34:24.153689
+[JobID: 5800f459] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-22T11:10:33.274926
+[JobID: 5800f459] Execution successful. Output file: 'sorted_countries2.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-06-03T20:14:34.668838
+[JobID: 03282ed8] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-12T23:52:08.887359
+[JobID: 03282ed8] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-06-02T00:53:08.103271
+[JobID: 03282ed8] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-06-05T13:21:32.932750
+[JobID: 03282ed8] Execution successful. Output file: 'sorted_countries27.csv' | Status: SUCCESS | Source: Spark | Timestamp: 2025-06-05T16:31:48.473725
+[JobID: a11cb4a1] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-13T21:11:46.584095
+[JobID: a11cb4a1] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-19T18:31:55.445523
+[JobID: a11cb4a1] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: CloudFormation | Timestamp: 2025-06-02T04:38:36.211454
+[JobID: 913fffda] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-09T18:33:23.151824
+[JobID: 913fffda] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-10T05:54:03.326171
+[JobID: 913fffda] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-16T01:53:13.132855
+[JobID: 913fffda] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Hadoop | Timestamp: 2025-05-29T02:06:40.085134
+[JobID: 9aa68420] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-13T17:45:20.934471
+[JobID: 9aa68420] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-14T11:27:09.832338
+[JobID: 9aa68420] Execution successful. Output file: 'sorted_countries40.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-05-19T17:03:13.185602
+[JobID: 2012690a] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-10T18:28:30.434922
+[JobID: 2012690a] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-21T08:29:39.071021
+[JobID: 2012690a] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-25T02:34:34.477677
+[JobID: 2012690a] Execution successful. Output file: 'sorted_countries20.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-06-02T13:51:48.394740
+[JobID: 263ecbfc] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-23T08:43:32.847927
+[JobID: 263ecbfc] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-25T14:06:25.434609
+[JobID: 263ecbfc] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-28T02:54:21.242951
+[JobID: 263ecbfc] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Hadoop | Timestamp: 2025-06-02T16:45:25.590023
+[JobID: 03bcde46] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-10T05:40:15.329827
+[JobID: 03bcde46] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-18T23:58:13.837126
+[JobID: 03bcde46] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-25T15:07:13.876030
+[JobID: 03bcde46] Execution successful. Output file: 'sorted_countries28.csv' | Status: SUCCESS | Source: Spark | Timestamp: 2025-05-26T07:50:23.875146
+[JobID: 89c7005b] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-10T03:57:09.176696
+[JobID: 89c7005b] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-18T18:54:47.345571
+[JobID: 89c7005b] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Hadoop | Timestamp: 2025-06-02T16:54:08.464841
+[JobID: d95678a4] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-18T05:54:42.244552
+[JobID: d95678a4] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-21T17:49:55.630802
+[JobID: d95678a4] Execution successful. Output file: 'sorted_countries17.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-05-28T07:44:21.761708
+[JobID: e6030fd7] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-21T09:57:02.832992
+[JobID: e6030fd7] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-23T20:39:18.592831
+[JobID: e6030fd7] Execution successful. Output file: 'sorted_countries90.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-06-03T11:52:44.985160
+[JobID: 65eb8ac1] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-18T02:49:33.895338
+[JobID: 65eb8ac1] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-21T14:50:14.768527
+[JobID: 65eb8ac1] Execution successful. Output file: 'sorted_countries26.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-06-06T00:35:11.766616
+[JobID: 8a06bcd9] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-11T09:38:54.217335
+[JobID: 8a06bcd9] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-24T15:23:26.381211
+[JobID: 8a06bcd9] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-31T01:46:48.034227
+[JobID: 8a06bcd9] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Glue | Timestamp: 2025-06-03T10:18:52.661647
+[JobID: 146e3e73] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-27T08:49:51.457976
+[JobID: 146e3e73] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-28T20:58:24.291278
+[JobID: 146e3e73] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-06-04T17:34:25.271712
+[JobID: 146e3e73] Execution successful. Output file: 'sorted_countries2.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-06-06T09:55:34.204507
+[JobID: 8de33e31] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-18T08:37:01.531681
+[JobID: 8de33e31] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-28T20:12:43.456524
+[JobID: 8de33e31] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: Spark | Timestamp: 2025-06-01T20:20:16.106605
+[JobID: 0898943c] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-23T12:05:01.083878
+[JobID: 0898943c] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-26T09:46:37.412527
+[JobID: 0898943c] Execution failed | Status: FAILED | Error: java.lang.NullPointerException: Cannot read property 'foo' of null | Source: Glue | Timestamp: 2025-06-07T02:46:21.272454
+[JobID: 40e94e0b] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-10T14:05:14.903235
+[JobID: 40e94e0b] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-23T05:40:07.744785
+[JobID: 40e94e0b] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-06-01T15:05:48.276573
+[JobID: 40e94e0b] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Hadoop | Timestamp: 2025-06-02T12:33:18.101451
+[JobID: 12fae8db] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-17T11:54:26.216286
+[JobID: 12fae8db] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-23T20:58:57.015521
+[JobID: 12fae8db] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-31T11:07:15.530123
+[JobID: 12fae8db] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: Glue | Timestamp: 2025-06-01T17:07:42.019215
+[JobID: 0a093b4c] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-10T19:41:04.512287
+[JobID: 0a093b4c] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-22T00:47:57.419253
+[JobID: 0a093b4c] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-29T03:23:46.335804
+[JobID: 0a093b4c] Execution successful. Output file: 'sorted_countries25.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-06-03T09:34:19.631531
+[JobID: 2e572ed1] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-16T15:17:55.950062
+[JobID: 2e572ed1] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-20T22:19:01.577624
+[JobID: 2e572ed1] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-23T01:05:23.530410
+[JobID: 2e572ed1] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Hadoop | Timestamp: 2025-05-25T22:06:54.857895
+[JobID: 1977ee3a] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-21T20:16:11.361323
+[JobID: 1977ee3a] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-26T06:40:41.830863
+[JobID: 1977ee3a] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-06-05T02:13:22.900871
+[JobID: 1977ee3a] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: CloudFormation | Timestamp: 2025-06-06T15:18:10.605589
+[JobID: 9ee4e765] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-09T04:51:34.446607
+[JobID: 9ee4e765] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-14T22:53:24.938940
+[JobID: 9ee4e765] Execution successful. Output file: 'sorted_countries95.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-06-02T22:00:58.814936
+[JobID: addb2bda] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-09T22:26:38.775036
+[JobID: addb2bda] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-16T16:42:12.300728
+[JobID: addb2bda] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-27T06:55:07.951466
+[JobID: addb2bda] Execution successful. Output file: 'sorted_countries69.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-05-30T12:45:16.782929
+[JobID: 8b4724ef] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-12T22:52:02.200821
+[JobID: 8b4724ef] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-16T22:22:28.687521
+[JobID: 8b4724ef] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-29T05:37:50.201946
+[JobID: 8b4724ef] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: CloudFormation | Timestamp: 2025-05-29T09:31:55.092278
+[JobID: ec155660] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-11T06:20:21.753936
+[JobID: ec155660] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-13T05:33:40.134691
+[JobID: ec155660] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Glue | Timestamp: 2025-06-06T08:49:22.544959
+[JobID: 6b55c993] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-10T22:35:04.345975
+[JobID: 6b55c993] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-13T08:02:13.526248
+[JobID: 6b55c993] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-24T18:55:05.438476
+[JobID: 6b55c993] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Hadoop | Timestamp: 2025-05-30T01:06:01.878597
+[JobID: cf4446bf] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-10T20:48:42.950773
+[JobID: cf4446bf] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-22T03:01:28.297887
+[JobID: cf4446bf] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-23T18:00:11.625813
+[JobID: cf4446bf] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: Spark | Timestamp: 2025-06-01T10:01:30.516967
+[JobID: 4a06afa2] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-16T04:08:06.260431
+[JobID: 4a06afa2] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-24T00:01:29.235851
+[JobID: 4a06afa2] Execution successful. Output file: 'sorted_countries1.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-05-28T00:55:09.926393
+[JobID: e5e383a1] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-14T22:26:12.262430
+[JobID: e5e383a1] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-19T15:53:58.686647
+[JobID: e5e383a1] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-20T21:13:43.593079
+[JobID: e5e383a1] Execution successful. Output file: 'sorted_countries41.csv' | Status: SUCCESS | Source: Spark | Timestamp: 2025-06-03T16:53:07.903591
+[JobID: a5a4fd61] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-27T14:21:05.386162
+[JobID: a5a4fd61] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-29T04:24:54.872790
+[JobID: a5a4fd61] Execution successful. Output file: 'sorted_countries99.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-06-04T12:17:05.551538
+[JobID: 9de7dee4] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-20T20:19:24.394775
+[JobID: 9de7dee4] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-28T07:34:37.324768
+[JobID: 9de7dee4] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-06-04T18:27:54.943755
+[JobID: 9de7dee4] Execution successful. Output file: 'sorted_countries80.csv' | Status: SUCCESS | Source: Spark | Timestamp: 2025-06-07T00:48:16.029891
+[JobID: 2f9776ff] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-17T17:29:15.801277
+[JobID: 2f9776ff] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-25T03:22:15.364221
+[JobID: 2f9776ff] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-30T13:54:50.538560
+[JobID: 2f9776ff] Execution successful. Output file: 'sorted_countries29.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-06-05T17:00:17.669750
+[JobID: 5ec6ba56] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-20T17:28:18.206770
+[JobID: 5ec6ba56] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-23T13:02:18.297426
+[JobID: 5ec6ba56] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-28T14:47:10.119469
+[JobID: 5ec6ba56] Execution successful. Output file: 'sorted_countries88.csv' | Status: SUCCESS | Source: Spark | Timestamp: 2025-06-04T03:09:27.114862
+[JobID: 212db562] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-16T16:29:27.467755
+[JobID: 212db562] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-16T16:44:50.161329
+[JobID: 212db562] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-24T20:12:33.365363
+[JobID: 212db562] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: Hadoop | Timestamp: 2025-05-28T09:37:57.409685
+[JobID: 00391fd3] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-15T13:02:25.463392
+[JobID: 00391fd3] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-28T01:26:09.085579
+[JobID: 00391fd3] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-29T19:25:46.109574
+[JobID: 00391fd3] Execution successful. Output file: 'sorted_countries62.csv' | Status: SUCCESS | Source: Spark | Timestamp: 2025-06-06T13:05:14.750509
+[JobID: a00bb142] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-12T07:30:58.755006
+[JobID: a00bb142] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-13T02:46:08.097921
+[JobID: a00bb142] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-18T00:03:46.928428
+[JobID: a00bb142] Execution successful. Output file: 'sorted_countries23.csv' | Status: SUCCESS | Source: Spark | Timestamp: 2025-05-20T09:29:28.942074
+[JobID: 6d99e5e8] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-13T10:13:23.832176
+[JobID: 6d99e5e8] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-15T17:56:47.744980
+[JobID: 6d99e5e8] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-31T20:14:06.822881
+[JobID: 6d99e5e8] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Mainframe | Timestamp: 2025-06-06T13:19:06.431100
+[JobID: dd05b9d1] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-20T14:21:57.507291
+[JobID: dd05b9d1] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-21T16:33:34.516217
+[JobID: dd05b9d1] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-22T23:44:24.249762
+[JobID: dd05b9d1] Execution failed | Status: FAILED | Error: java.lang.NullPointerException: Cannot read property 'foo' of null | Source: Hadoop | Timestamp: 2025-05-25T18:17:23.674064
+[JobID: ee6dc427] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-22T06:06:14.673540
+[JobID: ee6dc427] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-24T04:49:42.166945
+[JobID: ee6dc427] Execution failed | Status: FAILED | Error: java.lang.NullPointerException: Cannot read property 'foo' of null | Source: Spark | Timestamp: 2025-06-01T02:32:33.638508
+[JobID: 33aa2b77] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-15T15:06:59.484241
+[JobID: 33aa2b77] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-17T17:51:04.043401
+[JobID: 33aa2b77] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Mainframe | Timestamp: 2025-05-26T15:29:51.958782
+[JobID: bc7bda04] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-11T01:45:18.121222
+[JobID: bc7bda04] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-23T11:39:07.698645
+[JobID: bc7bda04] Execution successful. Output file: 'sorted_countries86.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-06-01T01:27:58.742380
+[JobID: 7feb2b68] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-12T18:53:18.513704
+[JobID: 7feb2b68] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-19T20:19:27.744847
+[JobID: 7feb2b68] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-29T19:15:52.722480
+[JobID: 7feb2b68] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: CloudFormation | Timestamp: 2025-06-02T12:52:32.609474
+[JobID: 53f62b4e] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-15T18:58:50.119523
+[JobID: 53f62b4e] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-23T01:54:40.870532
+[JobID: 53f62b4e] Execution successful. Output file: 'sorted_countries98.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-06-02T17:06:33.145933
+[JobID: 29134105] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-16T00:27:57.821566
+[JobID: 29134105] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-18T07:43:00.906723
+[JobID: 29134105] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-21T17:29:51.232024
+[JobID: 29134105] Execution successful. Output file: 'sorted_countries3.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-05-30T08:24:10.768205
+[JobID: 3fe7d9bd] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-14T03:19:07.301618
+[JobID: 3fe7d9bd] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-19T11:45:06.274747
+[JobID: 3fe7d9bd] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: Glue | Timestamp: 2025-06-03T22:02:04.451051
+[JobID: be1af233] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-13T03:05:45.687398
+[JobID: be1af233] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-19T23:50:55.479227
+[JobID: be1af233] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-22T20:32:26.545624
+[JobID: be1af233] Execution successful. Output file: 'sorted_countries100.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-06-03T07:46:52.654588
+[JobID: 677a320e] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-15T23:06:01.098747
+[JobID: 677a320e] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-25T18:09:53.839222
+[JobID: 677a320e] Execution successful. Output file: 'sorted_countries75.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-06-03T03:14:18.666310
+[JobID: 27c59096] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-12T18:45:07.506948
+[JobID: 27c59096] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-14T03:35:56.380509
+[JobID: 27c59096] Execution successful. Output file: 'sorted_countries71.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-05-16T21:26:14.923394
+[JobID: ea977cd9] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-18T10:59:33.855401
+[JobID: ea977cd9] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-18T13:03:09.606636
+[JobID: ea977cd9] Execution successful. Output file: 'sorted_countries55.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-05-28T16:21:28.694023
+[JobID: bc8de286] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-23T10:20:59.119597
+[JobID: bc8de286] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-30T09:44:13.145988
+[JobID: bc8de286] Execution successful. Output file: 'sorted_countries16.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-06-05T08:00:30.798606
+[JobID: edb0a4cc] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-10T06:11:56.136841
+[JobID: edb0a4cc] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-26T14:10:20.500398
+[JobID: edb0a4cc] Execution successful. Output file: 'sorted_countries47.csv' | Status: SUCCESS | Source: Spark | Timestamp: 2025-06-05T09:31:05.159433
+[JobID: 001fac04] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-09T16:43:00.237884
+[JobID: 001fac04] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-14T04:55:10.088768
+[JobID: 001fac04] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Hadoop | Timestamp: 2025-05-18T08:23:49.693246
+[JobID: c65d7905] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-13T13:46:44.836995
+[JobID: c65d7905] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-16T13:44:09.998668
+[JobID: c65d7905] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-18T01:55:03.059141
+[JobID: c65d7905] Execution successful. Output file: 'sorted_countries4.csv' | Status: SUCCESS | Source: Spark | Timestamp: 2025-06-01T21:28:52.640688
+[JobID: 8a591f8c] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-12T03:18:24.635317
+[JobID: 8a591f8c] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-20T14:10:32.065141
+[JobID: 8a591f8c] Execution successful. Output file: 'sorted_countries60.csv' | Status: SUCCESS | Source: Spark | Timestamp: 2025-06-04T23:48:03.345915
+[JobID: fe25b92e] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-08T14:33:59.278695
+[JobID: fe25b92e] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-15T14:49:40.506606
+[JobID: fe25b92e] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: CloudFormation | Timestamp: 2025-05-25T10:04:06.586643
+[JobID: f2548421] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-16T03:48:35.338977
+[JobID: f2548421] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-25T15:59:37.712230
+[JobID: f2548421] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-28T20:59:03.284283
+[JobID: f2548421] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Spark | Timestamp: 2025-06-06T15:22:12.817053
+[JobID: 52b24221] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-09T02:20:34.988742
+[JobID: 52b24221] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-09T14:16:24.291888
+[JobID: 52b24221] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-06-04T23:40:03.531308
+[JobID: 52b24221] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: Mainframe | Timestamp: 2025-06-05T06:28:36.596145
+[JobID: 0b7942c4] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-21T15:00:50.545452
+[JobID: 0b7942c4] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-23T07:13:02.519571
+[JobID: 0b7942c4] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Glue | Timestamp: 2025-06-04T23:10:00.173878
+[JobID: a8e86ff2] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-18T17:41:28.761641
+[JobID: a8e86ff2] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-26T13:31:24.344585
+[JobID: a8e86ff2] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-29T08:46:23.563795
+[JobID: a8e86ff2] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Mainframe | Timestamp: 2025-06-02T19:09:54.805805
+[JobID: 45311173] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-17T14:15:01.665847
+[JobID: 45311173] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-23T12:10:37.227459
+[JobID: 45311173] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-25T04:55:29.883262
+[JobID: 45311173] Execution successful. Output file: 'sorted_countries100.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-06-06T20:31:01.805300
+[JobID: e244ab42] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-11T21:19:08.544661
+[JobID: e244ab42] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-18T09:03:16.671988
+[JobID: e244ab42] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Hadoop | Timestamp: 2025-05-27T00:48:47.463182
+[JobID: b78bf4a8] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-09T19:10:33.875632
+[JobID: b78bf4a8] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-19T23:05:11.263711
+[JobID: b78bf4a8] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-22T00:36:03.179855
+[JobID: b78bf4a8] Execution successful. Output file: 'sorted_countries26.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-05-31T02:38:09.439497
+[JobID: 43ad2f04] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-11T08:31:39.752430
+[JobID: 43ad2f04] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-11T22:50:08.228179
+[JobID: 43ad2f04] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-25T22:54:19.343760
+[JobID: 43ad2f04] Execution successful. Output file: 'sorted_countries9.csv' | Status: SUCCESS | Source: Spark | Timestamp: 2025-05-27T02:00:13.401723
+[JobID: b841edee] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-19T21:10:44.005589
+[JobID: b841edee] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-28T10:20:54.393558
+[JobID: b841edee] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Glue | Timestamp: 2025-05-31T01:53:46.843853
+[JobID: 6d8bff7b] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-11T17:54:33.355013
+[JobID: 6d8bff7b] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-13T12:07:25.775726
+[JobID: 6d8bff7b] Execution successful. Output file: 'sorted_countries95.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-05-28T22:08:09.804097
+[JobID: 4ed62cc3] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-12T19:17:35.328640
+[JobID: 4ed62cc3] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-17T10:05:29.229544
+[JobID: 4ed62cc3] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: CloudFormation | Timestamp: 2025-06-06T09:54:48.678432
+[JobID: a26b369d] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-12T22:51:05.246224
+[JobID: a26b369d] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-14T15:18:45.749782
+[JobID: a26b369d] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Hadoop | Timestamp: 2025-06-07T09:22:31.850542
+[JobID: dbcead3b] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-10T03:14:56.896397
+[JobID: dbcead3b] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-14T22:17:50.748414
+[JobID: dbcead3b] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-17T23:48:14.038655
+[JobID: dbcead3b] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Hadoop | Timestamp: 2025-05-27T13:37:24.326145
+[JobID: 60cdf6b1] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-14T23:05:54.813416
+[JobID: 60cdf6b1] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-19T07:32:01.296386
+[JobID: 60cdf6b1] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-25T10:07:57.038580
+[JobID: 60cdf6b1] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Spark | Timestamp: 2025-06-07T07:25:12.992597
+[JobID: 076d0c58] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-12T19:15:13.642305
+[JobID: 076d0c58] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-24T21:26:01.363645
+[JobID: 076d0c58] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-06-01T22:35:40.335735
+[JobID: 076d0c58] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Spark | Timestamp: 2025-06-05T02:38:29.078977
+[JobID: 97e68118] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-16T03:46:17.776032
+[JobID: 97e68118] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-16T20:48:36.565574
+[JobID: 97e68118] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-06-01T06:42:16.055992
+[JobID: 97e68118] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Spark | Timestamp: 2025-06-04T18:30:23.026930
+[JobID: e523efc6] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-11T18:33:11.041225
+[JobID: e523efc6] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-16T01:34:50.939871
+[JobID: e523efc6] Execution successful. Output file: 'sorted_countries23.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-06-01T18:22:03.251902
+[JobID: eb887f11] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-16T06:35:35.880362
+[JobID: eb887f11] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-22T09:06:50.832825
+[JobID: eb887f11] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-23T23:30:56.020381
+[JobID: eb887f11] Execution successful. Output file: 'sorted_countries49.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-06-06T17:51:21.488645
+[JobID: 2a18557b] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-10T14:33:34.318107
+[JobID: 2a18557b] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-16T18:45:38.650485
+[JobID: 2a18557b] Execution successful. Output file: 'sorted_countries64.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-05-31T06:48:47.296556
+[JobID: 9d208179] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-12T08:13:57.555024
+[JobID: 9d208179] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-20T12:19:59.982525
+[JobID: 9d208179] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Spark | Timestamp: 2025-06-02T20:59:38.084333
+[JobID: 7271a1be] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-12T11:33:12.772281
+[JobID: 7271a1be] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-12T22:25:56.697724
+[JobID: 7271a1be] Execution successful. Output file: 'sorted_countries23.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-05-27T05:52:09.587665
+[JobID: bdf44e23] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-15T17:03:23.576528
+[JobID: bdf44e23] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-27T06:59:18.875066
+[JobID: bdf44e23] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Spark | Timestamp: 2025-06-02T22:04:27.727778
+[JobID: e46343ce] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-14T01:54:28.588542
+[JobID: e46343ce] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-22T11:34:19.378099
+[JobID: e46343ce] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-31T11:00:50.294596
+[JobID: e46343ce] Execution failed | Status: FAILED | Error: java.lang.NullPointerException: Cannot read property 'foo' of null | Source: Mainframe | Timestamp: 2025-06-02T11:10:51.520610
+[JobID: aa92a30b] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-11T03:06:38.997866
+[JobID: aa92a30b] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-16T06:00:41.584426
+[JobID: aa92a30b] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-25T13:24:36.915227
+[JobID: aa92a30b] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Glue | Timestamp: 2025-06-06T18:05:43.644257
+[JobID: a2c10394] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-11T01:39:13.804215
+[JobID: a2c10394] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-22T04:24:06.056182
+[JobID: a2c10394] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-29T00:30:29.145288
+[JobID: a2c10394] Execution successful. Output file: 'sorted_countries97.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-05-31T10:42:52.170860
+[JobID: 45263360] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-11T17:26:41.229365
+[JobID: 45263360] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-21T17:59:31.466723
+[JobID: 45263360] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-06-01T22:51:55.116548
+[JobID: 45263360] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: CloudFormation | Timestamp: 2025-06-03T15:31:23.602033
+[JobID: de881949] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-10T10:57:50.516079
+[JobID: de881949] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-19T23:32:48.137553
+[JobID: de881949] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-22T12:44:59.851525
+[JobID: de881949] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Spark | Timestamp: 2025-06-03T11:52:46.389106
+[JobID: 779cf7b2] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-20T02:39:23.733594
+[JobID: 779cf7b2] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-20T17:16:14.345192
+[JobID: 779cf7b2] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-06-02T15:29:51.035837
+[JobID: 779cf7b2] Execution failed | Status: FAILED | Error: java.lang.NullPointerException: Cannot read property 'foo' of null | Source: Glue | Timestamp: 2025-06-02T16:47:16.859601
+[JobID: a967ed2d] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-11T00:33:50.184417
+[JobID: a967ed2d] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-26T18:05:25.284922
+[JobID: a967ed2d] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-28T14:00:17.987743
+[JobID: a967ed2d] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Mainframe | Timestamp: 2025-06-03T16:20:21.559982
+[JobID: a1bcafb8] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-09T22:08:29.810399
+[JobID: a1bcafb8] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-10T13:12:40.123396
+[JobID: a1bcafb8] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-23T02:03:00.032290
+[JobID: a1bcafb8] Execution successful. Output file: 'sorted_countries39.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-05-28T01:53:44.776751
+[JobID: 26d1715b] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-23T01:53:52.704944
+[JobID: 26d1715b] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-31T20:03:34.353511
+[JobID: 26d1715b] Execution successful. Output file: 'sorted_countries41.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-06-07T06:09:13.253232
+[JobID: 6d938e34] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-09T17:12:58.557236
+[JobID: 6d938e34] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-25T12:50:12.460010
+[JobID: 6d938e34] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-26T20:13:42.978762
+[JobID: 6d938e34] Execution successful. Output file: 'sorted_countries28.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-05-31T03:30:24.405637
+[JobID: 9ee55e45] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-14T17:22:36.255316
+[JobID: 9ee55e45] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-20T17:54:48.006395
+[JobID: 9ee55e45] Execution successful. Output file: 'sorted_countries52.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-05-22T21:23:46.877648
+[JobID: 570cec65] Status update | Status: RUNNING | Source: Mainframe | Timestamp: 2025-05-08T20:42:51.821299
+[JobID: 570cec65] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-14T18:22:59.169555
+[JobID: 570cec65] Execution successful. Output file: 'sorted_countries70.csv' | Status: SUCCESS | Source: Mainframe | Timestamp: 2025-06-03T03:38:13.539912
+[JobID: 34032928] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-21T11:41:39.510009
+[JobID: 34032928] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-26T09:20:22.027256
+[JobID: 34032928] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-28T17:24:46.073909
+[JobID: 34032928] Execution successful. Output file: 'sorted_countries72.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-06-02T08:08:11.092276
+[JobID: 0b1207f1] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-17T14:04:39.716360
+[JobID: 0b1207f1] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-20T16:29:43.659536
+[JobID: 0b1207f1] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-24T04:06:19.885181
+[JobID: 0b1207f1] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: CloudFormation | Timestamp: 2025-05-30T12:23:05.095609
+[JobID: eaa8262d] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-26T01:26:55.365955
+[JobID: eaa8262d] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-27T14:05:41.181431
+[JobID: eaa8262d] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Spark | Timestamp: 2025-06-03T15:12:27.103990
+[JobID: acb8922a] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-09T09:28:15.062428
+[JobID: acb8922a] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-18T13:56:54.909979
+[JobID: acb8922a] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Hadoop | Timestamp: 2025-06-02T02:49:42.222878
+[JobID: cf91268a] Status update | Status: PENDING | Source: Mainframe | Timestamp: 2025-05-16T13:45:45.721027
+[JobID: cf91268a] Status update | Status: WAITING | Source: Mainframe | Timestamp: 2025-05-17T12:34:42.325635
+[JobID: cf91268a] Execution failed | Status: FAILED | Error: java.lang.NullPointerException: Cannot read property 'foo' of null | Source: Mainframe | Timestamp: 2025-06-07T02:20:23.326101
+[JobID: 6c9b7ae9] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-22T14:59:58.590509
+[JobID: 6c9b7ae9] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-30T09:19:54.421461
+[JobID: 6c9b7ae9] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-06-01T14:21:41.417675
+[JobID: 6c9b7ae9] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Hadoop | Timestamp: 2025-06-03T11:13:55.173828
+[JobID: 6ed634d3] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-16T16:09:25.292840
+[JobID: 6ed634d3] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-06-02T05:05:49.264086
+[JobID: 6ed634d3] Execution successful. Output file: 'sorted_countries51.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-06-05T20:04:43.451037
+[JobID: dff11042] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-24T01:05:34.038997
+[JobID: dff11042] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-24T11:12:15.206992
+[JobID: dff11042] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-30T06:37:55.935024
+[JobID: dff11042] Execution successful. Output file: 'sorted_countries35.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-06-06T23:39:29.785074
+[JobID: 5ecdd938] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-12T13:35:41.186104
+[JobID: 5ecdd938] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-21T13:55:32.044702
+[JobID: 5ecdd938] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-21T21:36:35.961972
+[JobID: 5ecdd938] Execution successful. Output file: 'sorted_countries98.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-06-06T20:58:26.857199
+[JobID: b74e99af] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-11T22:49:49.827018
+[JobID: b74e99af] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-16T14:39:30.141333
+[JobID: b74e99af] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-19T13:03:37.047825
+[JobID: b74e99af] Execution successful. Output file: 'sorted_countries17.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-05-28T23:15:07.534547
+[JobID: a657a6a7] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-12T16:09:06.092380
+[JobID: a657a6a7] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-21T00:53:20.359119
+[JobID: a657a6a7] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-29T19:58:08.853638
+[JobID: a657a6a7] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Spark | Timestamp: 2025-06-03T15:37:10.381509
+[JobID: 87bcff84] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-09T08:46:52.433327
+[JobID: 87bcff84] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-10T05:46:02.613755
+[JobID: 87bcff84] Execution successful. Output file: 'sorted_countries30.csv' | Status: SUCCESS | Source: Spark | Timestamp: 2025-06-05T20:12:44.928901
+[JobID: 8db9858a] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-20T19:34:35.615101
+[JobID: 8db9858a] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-26T07:49:37.682314
+[JobID: 8db9858a] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-06-04T16:46:54.644266
+[JobID: 8db9858a] Execution failed | Status: FAILED | Error: FileNotFoundError: [Errno 2] No such file or directory: 'data.csv' | Source: Glue | Timestamp: 2025-06-06T14:30:16.616423
+[JobID: d409250f] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-10T19:30:14.375914
+[JobID: d409250f] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-11T23:23:45.947512
+[JobID: d409250f] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Hadoop | Timestamp: 2025-05-21T16:10:27.100216
+[JobID: 55f83024] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-23T06:29:09.144133
+[JobID: 55f83024] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-25T03:10:26.763158
+[JobID: 55f83024] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-26T14:36:54.036036
+[JobID: 55f83024] Execution successful. Output file: 'sorted_countries32.csv' | Status: SUCCESS | Source: Spark | Timestamp: 2025-05-29T05:05:49.391966
+[JobID: 6858324d] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-19T18:33:00.503991
+[JobID: 6858324d] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-22T14:59:22.633683
+[JobID: 6858324d] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-23T13:25:35.722901
+[JobID: 6858324d] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Glue | Timestamp: 2025-06-02T16:11:44.813438
+[JobID: b8055dda] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-14T04:22:58.507009
+[JobID: b8055dda] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-18T11:15:42.652368
+[JobID: b8055dda] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-31T23:31:41.164749
+[JobID: b8055dda] Execution successful. Output file: 'sorted_countries70.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-06-04T20:13:28.286055
+[JobID: 277fcfa5] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-16T23:03:09.334641
+[JobID: 277fcfa5] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-21T16:08:27.941843
+[JobID: 277fcfa5] Execution successful. Output file: 'sorted_countries24.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-06-03T18:58:14.179422
+[JobID: 2a15e174] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-16T16:58:51.633866
+[JobID: 2a15e174] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-22T08:50:03.056589
+[JobID: 2a15e174] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-06-04T02:54:27.164067
+[JobID: 2a15e174] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Hadoop | Timestamp: 2025-06-05T02:07:49.861642
+[JobID: 36299bf9] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-09T17:40:45.509510
+[JobID: 36299bf9] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-12T14:51:56.477101
+[JobID: 36299bf9] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-24T01:15:14.443886
+[JobID: 36299bf9] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Hadoop | Timestamp: 2025-05-29T17:11:26.137150
+[JobID: 3d5b0daa] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-09T11:50:22.669100
+[JobID: 3d5b0daa] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-13T20:06:28.530486
+[JobID: 3d5b0daa] Execution failed | Status: FAILED | Error: org.apache.spark.SparkException: Job aborted due to stage failure | Source: Glue | Timestamp: 2025-05-31T04:52:23.079701
+[JobID: b43eaae6] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-14T01:52:33.712643
+[JobID: b43eaae6] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-17T20:19:03.287941
+[JobID: b43eaae6] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-05-29T22:51:04.016206
+[JobID: b43eaae6] Execution successful. Output file: 'sorted_countries6.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-06-01T03:16:08.266352
+[JobID: c653eacb] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-21T02:16:39.445638
+[JobID: c653eacb] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-26T02:24:05.262789
+[JobID: c653eacb] Status update | Status: WAITING | Source: Glue | Timestamp: 2025-06-04T06:17:18.261042
+[JobID: c653eacb] Execution successful. Output file: 'sorted_countries34.csv' | Status: SUCCESS | Source: Glue | Timestamp: 2025-06-06T05:12:23.124878
+[JobID: 4fb6db45] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-11T04:51:54.843444
+[JobID: 4fb6db45] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-19T09:43:41.026650
+[JobID: 4fb6db45] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: CloudFormation | Timestamp: 2025-06-01T15:22:39.187018
+[JobID: 4d599763] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-14T01:17:20.736835
+[JobID: 4d599763] Status update | Status: WAITING | Source: Hadoop | Timestamp: 2025-05-28T10:45:00.571467
+[JobID: 4d599763] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-06-02T21:24:44.990711
+[JobID: 4d599763] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Hadoop | Timestamp: 2025-06-05T19:19:23.418938
+[JobID: c2fdda9d] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-22T15:21:16.964061
+[JobID: c2fdda9d] Status update | Status: PENDING | Source: Glue | Timestamp: 2025-05-26T19:17:12.222961
+[JobID: c2fdda9d] Status update | Status: RUNNING | Source: Glue | Timestamp: 2025-05-29T14:22:19.248769
+[JobID: c2fdda9d] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: Glue | Timestamp: 2025-05-31T15:24:25.133045
+[JobID: 7b08768b] Status update | Status: PENDING | Source: Spark | Timestamp: 2025-05-12T23:31:34.688649
+[JobID: 7b08768b] Status update | Status: RUNNING | Source: Spark | Timestamp: 2025-05-19T03:58:22.610062
+[JobID: 7b08768b] Status update | Status: WAITING | Source: Spark | Timestamp: 2025-05-21T11:15:34.977875
+[JobID: 7b08768b] Execution failed | Status: FAILED | Error: com.amazonaws.services.dynamodbv2.model.ResourceNotFoundException | Source: Spark | Timestamp: 2025-05-31T18:04:48.637261
+[JobID: 154f15d0] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-09T17:32:26.697051
+[JobID: 154f15d0] Status update | Status: RUNNING | Source: CloudFormation | Timestamp: 2025-05-20T15:15:08.921112
+[JobID: 154f15d0] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-22T14:47:54.837763
+[JobID: 154f15d0] Execution failed | Status: FAILED | Error: Traceback (most recent call last): File 'main.py', line 23, in <module> ValueError: invalid literal | Source: CloudFormation | Timestamp: 2025-06-01T19:02:22.550361
+[JobID: da26e147] Status update | Status: PENDING | Source: CloudFormation | Timestamp: 2025-05-12T02:38:43.662696
+[JobID: da26e147] Status update | Status: WAITING | Source: CloudFormation | Timestamp: 2025-05-23T15:55:33.616901
+[JobID: da26e147] Execution successful. Output file: 'sorted_countries72.csv' | Status: SUCCESS | Source: CloudFormation | Timestamp: 2025-06-06T15:13:56.193146
+[JobID: 25943143] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-10T16:36:26.391104
+[JobID: 25943143] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-17T20:13:15.615170
+[JobID: 25943143] Execution successful. Output file: 'sorted_countries21.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-05-29T13:54:28.450836
+[JobID: 9e6e51aa] Status update | Status: PENDING | Source: Hadoop | Timestamp: 2025-05-08T21:59:15.719774
+[JobID: 9e6e51aa] Status update | Status: RUNNING | Source: Hadoop | Timestamp: 2025-05-13T08:01:00.336856
+[JobID: 9e6e51aa] Execution successful. Output file: 'sorted_countries68.csv' | Status: SUCCESS | Source: Hadoop | Timestamp: 2025-05-15T11:04:12.460926

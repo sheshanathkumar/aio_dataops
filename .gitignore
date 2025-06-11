@@ -1,0 +1,210 @@
+# Operating System Files
+.DS_Store
+.localized
+.Trashes
+Thumbs.db
+desktop.ini
+
+# IDE-specific files (General)
+.idea/             # IntelliJ IDEA / Android Studio
+.vscode/           # VS Code
+*.iml              # IntelliJ IDEA module files
+*.ipr              # IntelliJ IDEA project files
+*.iws              # IntelliJ IDEA workspace files
+.classpath         # Eclipse
+.project           # Eclipse
+.settings/         # Eclipse
+.vscodeignore      # VS Code specific ignore files
+
+# Build System Files
+/build/
+/dist/
+/out/
+/target/
+bin/
+obj/
+*.class            # Java compiled classes
+*.jar              # Java archive files
+*.war              # Java web archive files
+*.ear              # Java enterprise archive files
+*.pyc              # Python compiled files
+__pycache__/       # Python cache directory
+*.o                # Object files (C/C++)
+*.a                # Archive files (C/C++)
+*.so               # Shared object libraries (C/C++)
+*.dll              # Dynamic Link Libraries (Windows)
+*.exe              # Executables (Windows)
+*.obj              # Object files (Visual Studio)
+*.lib              # Library files (Visual Studio)
+*.exp              # Export files (Visual Studio)
+*.pdb              # Program Database files (Visual Studio)
+*.ilk              # Incremental Linker files (Visual Studio)
+*.lo               # LibreOffice temporary files
+*.tmp              # Temporary files
+*.swp              # Vim swap files
+*.swo              # Vim swap files
+*.bak              # Backup files
+*.log              # Log files
+
+# Dependency Directories
+/node_modules/     # Node.js dependencies
+/vendor/           # PHP Composer, Ruby Bundler dependencies
+/deps/             # Common dependency folder
+/externals/        # Common external dependency folder
+
+# Environment Variables
+.env               #dotenv environment variables
+.env.* # other .env files
+.flaskenv          # Flask environment variables
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+*.sqlitedb
+*.mdf              # SQL Server Database File
+*.ldf              # SQL Server Log File
+*.bak              # Database backup files
+
+# Test/Coverage Files
+/.nyc_output/      # Istanbul NYC coverage
+/coverage/         # Code coverage reports
+.coverage          # Coverage.py data file
+/htmlcov/          # Coverage.py HTML reports
+
+# Editor-specific files (beyond IDEs)
+*~                 # Backup files created by various editors (e.g., Emacs, Vim)
+*.sublime-project  # Sublime Text project files
+*.sublime-workspace # Sublime Text workspace files
+.vscode-test/      # VS Code test specific files
+
+# Package Manager Files
+package-lock.json  # Node.js
+yarn.lock          # Yarn
+pnpm-lock.yaml     # pnpm
+composer.lock      # PHP Composer
+Gemfile.lock       # Ruby Bundler
+
+# Mac specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# JetBrains IDEs (IntelliJ IDEA, PyCharm, WebStorm, PhpStorm, etc.)
+# .idea/ is already included above, but here are specific common files often generated
+# that might be missed or are part of the project structure.
+# Many of these are already covered by .idea/ above, but
+# this is for completeness if you choose a more granular approach.
+# .idea/workspace.xml
+# .idea/tasks.xml
+# .idea/shelf
+# .idea/dataSources/
+# .idea/dataSources.local/
+# .idea/sqlDataSources.xml
+# .idea/dynamic.xml
+# .idea/dictionaries
+# .idea/gradle.xml
+# .idea/libraries/
+# .idea/vcs.xml
+# .idea/jsLibraryMappings.xml
+# .idea/modules.xml
+# .idea/inspectionProfiles
+# .idea/misc.xml
+# .idea/runConfigurations
+# .idea/codeStyles
+# .idea/copyright
+# .idea/encodings.xml
+# .idea/fileColors.xml
+# .idea/fileTemplates
+# .idea/httpRequests
+# .idea/watcherTasks.xml
+# .idea/webResources.xml
+# .idea/uiDesigner.xml
+# .idea/external_system_id.xml
+# .idea/gradle.xml
+# .idea/jarRepositories.xml
+# .idea/libraries.xml
+# .idea/sonarlint
+
+# Visual Studio / Visual Studio Code
+# .vscode/ is already included above
+*.vspscc
+*.vssscc
+*.waf
+*.webtest
+*.metaproj
+*.user
+*.config.user
+*.suo             # Solution user options
+*.opensdf
+*.sdf
+*.vsscc
+*.vsmdi
+*.scc
+_ReSharper.*/     # ReSharper files
+[Dd]ebug/         # Debugging output
+[Rr]elease/       # Release output
+*.VC.db           # Visual C++ database file
+*.VC.VC.opendb    # Visual C++ open database file
+
+# Xcode (macOS/iOS/watchOS/tvOS development)
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.xcappdata
+!default.xcappdata
+*.xcodeproj/project.xcworkspace/
+*.xcworkspace/xcuserdata/
+*.xcappdata/xcuserdata/
+DerivedData/
+.idea/
+.vscode/
+.swiftpm/
+xcuserdata/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+.nb-gradle/
+.cache/
+nbproject/private
+nbproject/build-impl.xml # If you auto-generate this and want to ignore it
+
+# Atom
+.atom/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# VIM
+*.swp
+*.swo
+*.bak
+.netrwhist
+
+# Emacs
+*~
+\#*#
+
+# Others
+.DS_Store
+.env
+.idea
+.pytest_cache
+.venv
+build
+dist
+venv
