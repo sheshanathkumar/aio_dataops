@@ -4,7 +4,7 @@ import streamlit as st
 
 # --- Streamlit UI Setup ---
 st.set_page_config(page_title="Log Chatbot", page_icon="💬")
-st.title("🔍 Log Query Chatbot")
+st.title("🔍 AIO DataOps")
 
 # Initialize session state
 if "chat_history" not in st.session_state:
