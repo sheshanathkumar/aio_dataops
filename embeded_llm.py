@@ -2,37 +2,49 @@ import json, re, time
 from datetime import datetime
 import pytz
 import requests
-from langchain.embeddings import OllamaEmbeddings
 import numpy as np
+from langchain_ollama.embeddings import OllamaEmbeddings
+import streamlit as st
 
-# Load logs
+
+st.set_page_config(page_title="Log Chatbot", page_icon="💬")
+st.title("🔍 Log Query Chatbot")
+
+if "chat_history" not in st.session_state:
+    st.session_state.chat_history = []
+
 json_logs = []
 text_logs = []
 log_texts = []
 log_metadata = []
 log_vectors = []
-
-embed_model = OllamaEmbeddings(model="mxbai-embed-large")
+embed_model = None
 
 
 def parse_text_logs(lines):
-    parsed = []
+    logs = []
     for line in lines:
-        m = re.match(r"\[JobID: (.*?)\] .*?Status: (.*?) \| Source: (.*?) \| Timestamp: (.*?)$", line)
-        if m:
-            job_id, status, source, timestamp = m.groups()
-            parsed.append({
+        match = re.match(r"\[JobID: (.*?)\] .*?Status: (.*?) \| Source: (.*?) \| Timestamp: (.*?)$", line.strip())
+        if match:
+            job_id, status, source, timestamp = match.groups()
+            logs.append({
                 "job_id": job_id,
                 "status": status,
                 "source": source,
                 "timestamp": timestamp,
                 "log": line.strip()
             })
-    return parsed
+    return logs
 
 
 def load_logs():
-    global json_logs, text_logs, log_texts, log_metadata, log_vectors
+    global json_logs, text_logs, log_texts, log_metadata, log_vectors, embed_model
+    try:
+        embed_model = OllamaEmbeddings(model="mxbai-embed-large")
+    except Exception as e:
+        print("Error initializing embedding model:", e)
+        return
+
     try:
         with open("logs/structured_logs.json", "r") as f:
             json_logs = json.load(f)

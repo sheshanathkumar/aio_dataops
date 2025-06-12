@@ -1,0 +1,128 @@
+import json, re, time
+import requests
+import streamlit as st
+
+# Set Streamlit config
+st.set_page_config(page_title="Your DataOps Bot", page_icon="💬")
+st.title("🔍 Log Query Chatbot")
+
+
+if "chat_history" not in st.session_state:
+    st.session_state.chat_history = []
+if "logs_loaded" not in st.session_state:
+    st.session_state.logs_loaded = False
+
+# Global logs
+json_logs = []
+text_logs = []
+
+# Constants
+LLM_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+LLM_API_KEY = st.secrets["GROQ_API_KEY"] if "GROQ_API_KEY" in st.secrets else "your-fallback-api-key"
+LLM_MODEL = "llama3-70b-8192"
+
+
+def parse_text_logs(lines):
+    parsed = []
+    for line in lines:
+        m = re.match(r"\[JobID: (.*?)\] .*?Status: (.*?) \| Source: (.*?) \| Timestamp: (.*?)$", line)
+        if m:
+            job_id, status, source, timestamp = m.groups()
+            parsed.append({
+                "job_id": job_id,
+                "status": status,
+                "source": source,
+                "timestamp": timestamp,
+                "log": line.strip()
+            })
+    return parsed
+
+
+def load_logs():
+    global json_logs, text_logs
+    try:
+        with open("logs/structured_logs.json", "r") as f:
+            json_logs.extend(json.load(f))
+    except Exception as e:
+        st.warning(f"Error loading structured JSON logs: {e}")
+
+    try:
+        with open("logs/plain_logs.log", "r") as f:
+            text_logs.extend(parse_text_logs(f.readlines()))
+    except Exception as e:
+        st.warning(f"Error loading plain logs: {e}")
+
+    st.session_state.logs_loaded = True
+
+
+def query_bot(question):
+    logs_summary = "\n".join([
+        f"JobID: {log['job_id']}, Status: {log['status']}, Source: {log['source']}, Timestamp: {log['timestamp']}, Log: {log.get('log', '')[:100]}"
+        for log in (json_logs + text_logs)[-50:]
+    ])
+
+    prompt = f"""
+You are a helpful assistant analyzing job logs.
+Logs:
+{logs_summary}
+
+User question: {question}
+Answer in natural language:
+"""
+
+    try:
+        start_time = time.time()
+        headers = {
+            "Authorization": f"Bearer {LLM_API_KEY}",
+            "Content-Type": "application/json"
+        }
+        payload = {
+            "model": LLM_MODEL,
+            "messages": [
+                {"role": "user", "content": prompt}
+            ]
+        }
+        response = requests.post(LLM_API_URL, headers=headers, json=payload)
+        response.raise_for_status()
+        result = response.json()
+        elapsed_time = time.time() - start_time
+        seconds = round(elapsed_time, 2)
+        return result.get("choices", [{}])[0].get("message", {}).get("content", "No answer generated.") + f"\n(Result fetched in {seconds} seconds)"
+    except Exception as e:
+        return f"Error: {str(e)}"
+
+
+# Load logs once
+if not st.session_state.logs_loaded:
+    load_logs()
+
+# User input
+user_input = st.text_input("Type your question and press Enter", key="input")
+
+if user_input:
+    st.session_state.chat_history.append(("user", user_input))
+    with st.spinner("Thinking..."):
+        response = query_bot(user_input)
+    st.session_state.chat_history.append(("bot", response))
+    st.experimental_rerun()  # Refresh to display chat history
+
+# Top of file - ensure this is set
+if "input" not in st.session_state:
+    st.session_state.input = ""
+
+user_input = st.text_input("Type your question and press Enter", key="input")
+
+if user_input:
+    st.session_state.chat_history.append(("user", user_input))
+    with st.spinner("Thinking..."):
+        response = query_bot(user_input)
+    st.session_state.chat_history.append(("bot", response))
+    st.session_state.input = ""  # ✅ Clear input instead of rerunning
+
+
+# Display chat
+for sender, message in st.session_state.chat_history:
+    if sender == "user":
+        st.markdown(f"🧑‍💻 **You:** {message}")
+    else:
+        st.markdown(f"🤖 **Bot:** {message}")

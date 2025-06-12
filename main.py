@@ -7,6 +7,7 @@ import requests
 json_logs = []
 text_logs = []
 
+
 def load_logs():
     global json_logs, text_logs
     try:
@@ -20,6 +21,7 @@ def load_logs():
             text_logs = parse_text_logs(f.readlines())
     except Exception as e:
         print("Error loading plain logs:", e)
+
 
 def parse_text_logs(lines):
     parsed = []
@@ -35,6 +37,7 @@ def parse_text_logs(lines):
                 "log": line.strip()
             })
     return parsed
+
 
 def query_bot(question):
     logs_summary = "\n".join([
@@ -67,9 +70,11 @@ Answer in natural language:
         result = response.json()
         elapsed_time = time.time() - start_time
         seconds = round(elapsed_time, 2)
-        return result.get("message", {}).get("content", "No answer generated.") + f"\n(Result fetched in {seconds} seconds)"
+        return result.get("message", {}).get("content",
+                                             "No answer generated.") + f"\n(Result fetched in {seconds} seconds)"
     except Exception as e:
         return f"Error: {str(e)}"
+
 
 if __name__ == "__main__":
     load_logs()
